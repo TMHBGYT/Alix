@@ -1,0 +1,20 @@
+{
+  "name": "Aluminium Drill",
+  "description": "A cheap but better starter Drill.",
+  "type": "Drill",
+  "size": 2,
+  "tier": 2,
+  "drillTime": 400,
+  "requirements": [
+    {
+      "item": "aluminium",
+      "amount": 25
+    }
+    {
+      "item": "reinforced-steel",
+      "amount": 10
+    }
+  ],
+  "category": "production",
+  "research": "steel-drill"
+}

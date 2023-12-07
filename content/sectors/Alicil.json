@@ -1,0 +1,11 @@
+{
+  "localizedName": "Alicil",
+  "description": "You are finally in Alix after days of Traveling.Collect these unknown resources and find your way to defeating the enemy forces",
+  "captureWave": 15,
+  "difficulty": 2,
+  "planet": "alix",
+  "allowLaunchLoadout": true,
+  "allowLaunchSchematics": false,
+  "addStartingItems": true,
+  "sector": 0
+}

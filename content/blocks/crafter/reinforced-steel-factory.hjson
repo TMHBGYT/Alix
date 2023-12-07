@@ -1,0 +1,26 @@
+localizedName:Reinforced Steel Factory
+type: GenericCrafter
+size: 1
+hasItems: true
+craftEffect: {
+  type: ParticleEffect
+  lifetime: 35
+  length: 8
+  colorTo: 7382f0
+}
+flameColor: 90a2fc
+consumes: {
+  items: {
+    items: [
+	  steel/5
+      aluminium/2
+	]
+  }
+}
+craftTime: 20
+outputItem: reinforced-steel/5
+category: crafting
+research: core-liod
+requirements: [
+  steel/15
+]

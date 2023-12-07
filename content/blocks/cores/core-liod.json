@@ -1,0 +1,18 @@
+{
+    "type": "CoreBlock",
+    "name": "Core: [#28C76D]Liod",
+    "description": "The only core available on the planet Alix"
+    "details": "A core"
+    "size": 4,
+    "health": 5500,
+    "itemCapacity": 8000,
+    research: {
+  planet: alix
+  root: true
+  name: Alix
+  requiresUnlock: false
+}
+    "category": "effect",
+    "unitType": "alpha",
+    "unitCapModifier": 30
+}

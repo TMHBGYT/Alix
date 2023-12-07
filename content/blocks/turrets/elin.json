@@ -1,0 +1,54 @@
+type: ItemTurret
+localizedName: Elin
+description: Fires Normal Bullets at enemy targets.Based of the The duo or basically an upgraded duo.
+targetAir: true
+targetGround: true
+health: 10
+reload: 50
+size: 1
+inaccuracy: 1
+recoil: 2
+ammoUseEffect: casing3
+shootCone: 25
+rotateSpeed: 1000
+range: 100
+lifetime: 20
+shoot: {
+   type: ShootAlternate
+   shots: 2
+   spread: 2
+   shotDelay: 3
+}
+"coolantMultiplier": 0.2,
+  "consumes": {
+    "coolant": {
+      "amount": 1
+    }
+  },
+ammoTypes: {
+  steel: {
+    speed: 7
+	damage: 15
+    width: 6
+    height: 8
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+	ammoMultiplier: 30
+  }
+  aluminium: {
+    speed: 7
+	damage: 30
+    width: 6
+	height: 8
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 5
+  }
+}
+requirements: [
+  steel/75
+  aluminium/10
+]
+category: turret
+research: core-liod
+shootSound: bigshot

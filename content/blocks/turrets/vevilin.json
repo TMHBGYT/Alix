@@ -1,0 +1,53 @@
+type: ItemTurret
+localizedName: Vevilin
+description: Fires quick explosive bullets at enemy targets.Uses Doubled Barrel.
+targetAir: true
+targetGround: true
+health: 2500
+size: 4
+inaccuracy: 0
+reload: 10
+recoilAmount: 1000
+ammoUseEffect: casing3
+shootCone: 25
+rotateSpeed: 1000
+range:170 
+"coolantMultiplier": 0.5,
+  "consumes": {
+    "coolant": {
+      "amount": 1
+    }
+  },
+shoot: {
+   type: ShootAlternate
+   shots: 2
+   spread: 6
+   shotDelay: 4
+}
+ammoTypes: {
+  reinforced-aluminium: {
+    speed:5
+    lifetime:25
+	damage: 160
+	width: 11
+    height: 22
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    status:blasted
+	incendChance:100
+    incendSpread:15
+    incendAmount:55
+	ammoMultiplier: 20
+    frontColor: ff0000
+    backColor: ff0000
+  }
+}
+requirements: [
+  steel/1000
+  aluminium/950
+  reinforced-steel/100
+  reinforced-aluminium/200
+]
+category: turret
+research: rixeon
+shootSound: bigshot

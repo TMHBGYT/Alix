@@ -1,0 +1,17 @@
+{
+  "type": "ItemBridge",
+  "name": "Alix bridge",
+  "description": "A Bridge conveyor used in Alix",
+  "health": 150,
+  "hasItems": true,
+  "hasPower": false,
+  "requirements": [
+    "steel/5",
+    "aluminium/1",
+
+  ],
+  "range": 6,
+  "transportTime": 1,
+  "category": "distribution",
+  "research": "alix-router"
+}

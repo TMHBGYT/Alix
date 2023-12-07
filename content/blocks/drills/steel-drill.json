@@ -1,0 +1,16 @@
+{
+  "name": "Steel Drill",
+  "description": "A cheap starter drill.",
+  "type": "Drill",
+  "size": 2,
+  "tier": 1,
+  "drillTime": 500,
+  "requirements": [
+    {
+      "item": "steel",
+      "amount": 10
+    }
+  ],
+  "category": "production",
+  "research": "core-liod"
+}

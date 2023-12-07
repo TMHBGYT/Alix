@@ -1,0 +1,51 @@
+type: ItemTurret
+localizedName: Dixter
+description: Fires burning Bullets at enemy targets.
+targetAir: true
+targetGround: true
+health: 2500
+reload: 15
+size: 2
+inaccuracy: 2
+recoilAmount: 50
+ammoUseEffect: casing3
+shootCone: 25
+rotateSpeed: 1000
+range: 100
+lifetime:100
+"coolantMultiplier": 0.5,
+  "consumes": {
+    "coolant": {
+      "amount": 1
+    }
+  },
+ammoTypes: {
+  aluminium: {
+    speed: 11   
+	damage: 50
+    width: 6
+    status:burning
+	height: 10
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+	ammoMultiplier: 15
+  }
+  steel: {
+    speed: 10
+	damage: 60
+    width: 6
+	height: 10
+    status:burning
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 10
+  }
+}
+requirements: [
+  steel/50
+  aluminium/10
+  reinforced-aluminium/10
+]
+category: turret
+research: elin
+shootSound: bigshot

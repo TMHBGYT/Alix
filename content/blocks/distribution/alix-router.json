@@ -1,0 +1,14 @@
+{
+    "name": "alix router",
+    "description": "An Alix only router",
+    "type": "router",
+    "size": 1,
+    "health": 110,
+    "hasItems": true,
+    "speed": 30,
+    "itemCapacity": 3,
+    "requirements": [
+        "steel/2",
+    ],
+    "research": "steel-conveyor"
+}

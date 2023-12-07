@@ -1,0 +1,63 @@
+type: ItemTurret
+localizedName: Overseer
+description: Fires long range artilery like bullets at enemy targets.
+health: 500
+range: 855
+targetAir: true
+size:3
+inaccuracy: 0
+targetGround: true
+reload: 350
+shots:2
+recoilAmount: 100
+restitution: 0.01
+shootSound: artillery
+ammoPerShot: 50
+maxAmmo: 140
+"coolantMultiplier": 0.5,
+  "consumes": {
+    "coolant": {
+      "amount": 1
+    }
+  },
+ammoTypes: {
+  steel: {
+    speed: 10  
+	damage: 100
+    width: 10
+    height: 16
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+	ammoMultiplier: 5
+    fragBullets: 5
+    fragLifeMin: 0.3
+    fragBullet: {
+      damage: 60
+      speed: 1
+      lifetime: 5
+      height: 7
+      width: 7
+      frontColor: eff2ac
+      backColor: cedb84
+  }
+  aluminium: {
+    speed: 10
+	width: 10
+    height: 16
+	damage: 150
+    height: 10
+    status:blasted
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 2
+	}
+  }
+}
+requirements: [
+  steel/500
+  aluminium/300
+  reinforced-aluminium/55
+  reinforced-steel/40
+]
+category: turret
+research: disturber

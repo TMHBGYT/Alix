@@ -1,0 +1,13 @@
+{
+    "type": "Conveyor",
+    "name": "[#28C76D]Steel conveyor",
+    "description": "A Weak,but decently fast starter conveyor",
+    "category": "distribution",
+    "health": 10,
+    "speed": 0.40,
+    "displayedSpeed": 66,
+    "requirements": [
+        "steel/1"
+    ],
+    "research": "core-liod"
+}
