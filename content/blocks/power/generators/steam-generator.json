@@ -1,0 +1,40 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Steel-Steam Generator",
+  "description": "Melts down Steel to make power.",
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "itemDuration": 60,
+  "powerProduction": 6,
+  "consumes": {
+    "items": {
+      "items": [
+        {
+          "item": "steel",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "steel",
+      "amount": 150
+    },
+    {
+      "item": "aluminium",
+      "amount": 90
+    },
+    {
+      "item": "reinforced-aluminium",
+      "amount": 75
+    },
+    {
+      "item": "reinforced-steel",
+      "amount": 50
+    }
+  ],
+  "category": "power",
+  "research": "alix-power-node"
+}

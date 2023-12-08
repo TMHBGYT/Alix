@@ -1,0 +1,26 @@
+localizedName: Reinforced Aluminium factory
+type: GenericCrafter
+size: 3
+hasItems: true
+craftEffect: {
+  type: ParticleEffect
+  lifetime: 35
+  length: 8
+  colorTo: 7382f0
+}
+flameColor: 90a2fc
+consumes: {
+  items: {
+    items: [
+      aluminium/5
+      steel/2
+	]
+  }
+}
+craftTime: 80
+outputItem: reinforced-aluminium/5
+category: crafting
+research: reinforced-steel-factory
+requirements: [
+  steel/10
+]

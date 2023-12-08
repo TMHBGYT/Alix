@@ -1,0 +1,14 @@
+{
+	"type": "battery",
+	"name": "Alix Battery",
+  "description": "A 2x2 battery used on Alix.",
+	"size": 2,
+	"health": 100,
+	"category": "power",
+	"requirements": [
+		{"item": "reinforced-steel", "amount": 50},
+		{"item": "reinforced-aluminium", "amount": 10}
+	],
+	"consumes": { "powerBuffered": 50000 },
+	"research": "steam-generator"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "PowerNode",
+  "name": "Alix Power Node",
+  "description": "An Alix only power node.",
+  "size": 1,
+  "health": 60,
+  "laserRange": 7,
+  "maxNodes": 12,
+  "requirements": [
+    "steel/1",
+    "aluminium/2"
+  ],
+  "category": "power",
+  "research": "core-liod"
+}

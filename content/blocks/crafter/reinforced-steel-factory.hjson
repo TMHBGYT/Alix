@@ -1,6 +1,6 @@
 localizedName:Reinforced Steel Factory
 type: GenericCrafter
-size: 1
+size: 3
 hasItems: true
 craftEffect: {
   type: ParticleEffect

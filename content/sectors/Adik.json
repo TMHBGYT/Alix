@@ -1,0 +1,10 @@
+{
+  "localizedName": "Adik",
+  "description": "You have arrived to an unknown place,there is an enemy base nearby,destroy it and move on.",
+  "difficulty": 4,
+  "planet": "alix",
+  "allowLaunchLoadout": true,
+  "allowLaunchSchematics": false,
+  "addStartingItems": true,
+  "sector": 1
+}

@@ -3,6 +3,7 @@ localizedName: Overseer
 description: Fires long range artilery like bullets at enemy targets.
 health: 500
 range: 855
+lifetime: 855
 targetAir: true
 size:3
 inaccuracy: 0
@@ -23,6 +24,7 @@ maxAmmo: 140
 ammoTypes: {
   steel: {
     speed: 10  
+	buildingDamage:20
 	damage: 100
     width: 10
     height: 16
@@ -39,18 +41,7 @@ ammoTypes: {
       width: 7
       frontColor: eff2ac
       backColor: cedb84
-  }
-  aluminium: {
-    speed: 10
-	width: 10
-    height: 16
-	damage: 150
-    height: 10
-    status:blasted
-    shootEffect: shootBig
-    smokeEffect: shootBigSmoke
-    ammoMultiplier: 2
-	}
+    }
   }
 }
 requirements: [

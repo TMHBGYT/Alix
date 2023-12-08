@@ -1,0 +1,16 @@
+{
+  "type": "PowerNode",
+  "name": "Large Alix Power Node",
+  "description": "A larger Alix only power node.",
+  "size": 2,
+  "health": 400,
+  "laserRange": 20,
+  "maxNodes": 22,
+  "requirements": [
+    "steel/12",
+    "aluminium/5",
+    "reinforced-steel/1"
+  ],
+  "category": "power",
+  "research": "alix-power-node"
+}

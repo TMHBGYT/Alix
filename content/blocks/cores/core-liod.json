@@ -5,14 +5,19 @@
     "details": "A core"
     "size": 4,
     "health": 5500,
-    "itemCapacity": 8000,
+    "armor": 4
+	"itemCapacity": 8000,
     research: {
   planet: alix
   root: true
   name: Alix
   requiresUnlock: false
 }
+"requirements": [
+        "steel/1000",
+        "aluminium/800"
+    ],
     "category": "effect",
-    "unitType": "alpha",
+    "unitType": "qwaver",
     "unitCapModifier": 30
 }

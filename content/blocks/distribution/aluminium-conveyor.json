@@ -5,7 +5,7 @@
     "category": "distribution",
     "health": 35,
     "speed": 0.70,
-    "displayedSpeed": 89,
+    "displayedSpeed": 70,
     "requirements": [
         "aluminium/1"
         "reinforced-steel/1"

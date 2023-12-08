@@ -1,0 +1,49 @@
+{
+    "type": "flying",
+    "name": "[#28C76D]Qwaver",
+    "description": "Defends the liod core from enemies,Builds `n` mines",
+    "speed": 3.0,
+    "accel": 0.125,
+    "drag": 0.0625,
+    "mineSpeed": 4,
+    "mineTier": 3,
+    "health": 500,
+    "alwaysUnlocked": true,
+    "itemCapacity": 55,
+    "rotateSpeed": 3,
+    "hitSize": 7,
+    "armor": 4,
+    "buildSpeed": 4.5,
+    "engineOffset": 8,
+    "flying": true,
+    "faceTarget": true,
+    "weapons": [
+        {
+            "name": "main-gun",
+            "reload": 50,
+            "x": 5,
+            "y": 2,
+            "top": false,
+            "rotate": false,
+            "shoot": {
+                "shots": 3,
+                "shotDelay": 4
+            },
+            "inaccuracy": 5,
+            "velocityRnd": 0.25,
+            "shootY": 3,
+            "ejectEffect": "casing2",
+            "shootSound": "shootBig",
+            "bullet": {
+                "type": "BasicBulletType",
+                "damage": 30,
+                "speed": 6,
+                "width": 7,
+                "height": 9,
+                "shootEffect": "shootSmall",
+                "smokeEffect": "shootSmallSmoke",
+                "lifetime": 40
+            }
+        }
+    ]
+}

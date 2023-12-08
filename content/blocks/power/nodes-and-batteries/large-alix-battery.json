@@ -1,0 +1,14 @@
+{
+	"type": "battery",
+	"name": "Large Alix Battery",
+  "description": "A 3x3 battery used on Alix.",
+	"size": 3,
+	"health": 250,
+	"category": "power",
+	"requirements": [
+		{"item": "reinforced-steel", "amount": 100},
+		{"item": "reinforced-aluminium", "amount": 50}
+	],
+	"consumes": { "powerBuffered": 100000 },
+	"research": "alix-battery"
+}
