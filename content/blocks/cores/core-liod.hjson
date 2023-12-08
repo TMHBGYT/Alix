@@ -1,0 +1,24 @@
+{
+    type: CoreBlock,
+    name: Core Liod,
+    description: The only core available on the planet Alix
+    details: A core
+    size: 4,
+    health: 5500,
+    armor: 4
+	itemCapacity: 8000,
+    researchCost: [ ]
+	research: {
+     planet: alix
+     root: true
+     name: Alix
+     requiresUnlock: false
+	}
+     requirements: [
+        steel/1000,
+        aluminium/800
+    ],
+    category: effect,
+    unitType: qwaver,
+    unitCapModifier: 30
+}
