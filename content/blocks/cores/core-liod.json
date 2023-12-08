@@ -20,4 +20,5 @@
     "category": "effect",
     "unitType": "qwaver",
     "unitCapModifier": 30
+    "alwaysUnlocked": true
 }
